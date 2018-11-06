@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Creative portfolio template">
+	<meta name="author" content="layerz">
+
+	<title>Nous - Creative Portfolio Template</title>
+
+	<link rel="icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unna:400,400i,700|Montserrat:400,700|Lora:400,700">
+
+</head>
+<body>
+
+		<!-- page header -->
+		<header class="page-header"  >
+        <div class="bar">
+            <div class="trigger">
+              <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+      
+
+      
+            <div class="back">
+              <span></span>
+            </div>
+          </div>
+      
+          <!-- page nav -->
+          <div id="appendNavMenu">
+              
+          </div>
+      
+          <!-- <div class="copy">&copy; 2017 Nous Studio.</div> -->
+           
+			</header>
+
+
+
+
+<div class="page-content">
+
+  <div class="container ">
+    <div class="card" >
+        <div class="navigation">
+            <a href="index.html">
+                <button type="button" class="btn-change">ΠΙΣΩ</button>             
+            </a>
+            <button type="button" class="btn-change" data-toggle="modal" data-target="#similarApps">Παρομοιες Εφαρμογες</button>
+      </div>
+      <h2 class="heading">Μέτρηση των λέξεων και των χαρακτήρων ενός κειμένου</h2>
+      <div class="row">
+
+          <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Γράψτε το κείμενο ή κάντε το copy / paste , για να μετρηθεί ο αριθμός των χαρακτήρνων και λέξεων σε αυτό.</h3>
+                </div>
+                <div class="panel-body">
+
+                    <form class="wordcountform" id="app6_form">
+                        <div class="form-group">
+                          <h2 id="counteroutput"></h2>
+                          <textarea id="wordcounter" class="form-control" rows="10" placeholder="Γράψτε το κείμενο ή κάντε το copy / paste"></textarea>
+                          <button onClick="return fieldtoclipboard.copyfield(event, wordcounter)" class="btn btn-dark btn-block" style="margin-top: 10px;">Αντιγράψτε το κείμενο</button>
+                         
+                        </div>
+                    </form>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="similarApps" tabindex="-1" role="dialog" aria-labelledby="similarAppsLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="similarAppsLabel">Δείτε άλλες εφαρμογές σχετικά με : <span id="categoryText"></span>  </h5>
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button> -->
+					</div>
+					<div class="modal-body">
+							<ul class="list-group" id="similarAppsLIst">			
+								</ul>      
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Κλείσιμο</button>
+						<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	
+    <script type="text/javascript" src="assets/js/apps/app6_words.js"></script>
+    <script type="text/javascript" src="assets/js/apps.js"></script>
+    <script type="text/javascript" src="assets/js/functions.js"></script>
+    <script type="text/javascript" src="assets/js/apps/appsingle.js"></script>
+    
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/SmoothScroll.js"></script>
+  <script src="assets/js/jquery.waitforimages.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+
+</body>
+</html>

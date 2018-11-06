@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Creative portfolio template">
+	<meta name="author" content="layerz">
+
+	<title>Nous - Creative Portfolio Template</title>
+
+	<link rel="icon" href="assets/img/favicon.png">
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unna:400,400i,700|Montserrat:400,700|Lora:400,700">
+
+</head>
+<body>
+
+	<!-- page header -->
+	<header class="page-header">
+		<div class="bar">
+			<div class="trigger">
+				<div class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+
+			<div class="blog-search">
+				<i class="fa fa-search"></i>
+				<input type="search" name="s" autocomplete="off" class="field searchinput" placeholder="Πληκτρολογήστε τι ψάχνετε">
+			</div>
+
+			<div class="back">
+				<span></span>
+			</div>
+		</div>
+
+		<!-- page nav -->
+		<div id="appendNavMenu">
+				
+		</div>
+
+		<!-- <div class="copy">&copy; 2017 Nous Studio.</div> -->
+		 
+		
+	</header>
+
+
+	<!-- page content -->
+	<div class="page-content">
+		<div class="portfolio">
+
+			<div class="filters-wrap">
+				<ul class="filters" id="filterCategories">
+					<li class="title">Κατηγορίες:</li>
+					<li data-filter="*" class="active all">Όλα <sup class="count"></sup></li>
+					<!-- <li data-filter=".converts">Μετατροπές <sup class="count"></sup></li>	-->
+				</ul>
+			</div>
+
+			<div class="gallery full" data-cols="4" data-height="0.8" data-double-height="2" data-margin="0" id="tmpl_append">
+
+				<template id="appCards"> 
+				<div id="tmpl_category" class="entry economy">
+						<a href="app2_economy.html" id="tmpl_a">
+							<div class="entry__image" id="tmpl_bgphoto"></div>
+							<div class="entry__content">
+								<div class="overlay">
+									<div class="overlay--caption bottom" id="tmplLight">
+										<h6 class="entry-cat" id="tmpl_categoryText">Οικονομικα</h6>
+										<h5 class="entry-title" id="tmpl_info">Υπολογίστε την μηνιαία δόση που θα πληρώνετε για το δάνειό σας</h5>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+				</template>
+
+			</div>
+		</div>
+	</div>
+
+
+	<script src="assets/js/apps.js"></script>
+	<script src="assets/js/functions.js"></script>
+	<script src="assets/js/home.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/SmoothScroll.js"></script>
+	<script src="assets/js/jquery.waitforimages.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/gallery.js"></script>
+	<script src="assets/js/scripts.js"></script>
+
+
+	<script>
+			if ('content' in document.createElement( 'template')) {
+			// Templates are supported.
+			appendApps();
+		} else {
+			alert('Χρειάζεστε συγχρονο browser για την συγκεκριμένη ιστοσελίδα');
+		}
+		
+
+		</script>
+</body>
+</html>

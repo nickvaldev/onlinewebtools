@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="Creative portfolio template">
+	<meta name="author" content="layerz">
+
+	<title>Nous - Creative Portfolio Template</title>
+
+	<link rel="icon" href="assets/img/favicon.png">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unna:400,400i,700|Montserrat:400,700|Lora:400,700">
+
+</head>
+<body>
+
+		<!-- page header -->
+		<header class="page-header"  >
+        <div class="bar">
+            <div class="trigger">
+              <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+      
+
+      
+            <div class="back">
+              <span></span>
+            </div>
+          </div>
+      
+          <!-- page nav -->
+          <div id="appendNavMenu">
+              
+          </div>
+      
+          <!-- <div class="copy">&copy; 2017 Nous Studio.</div> -->
+           
+			</header>
+
+		
+		
+		<!-- page content -->
+	<div class="page-content">
+
+      <div class="container ">
+				<div class="card" >
+						<div class="navigation">
+								<a href="index.html">
+										<button type="button" class="btn-change">ΠΙΣΩ</button>             
+								</a>
+								<button type="button" class="btn-change" data-toggle="modal" data-target="#similarApps">Παρομοιες Εφαρμογες</button>
+					</div>
+        <h2 class="heading">Μετατροπή Μεγεθών Θερμοκρασίας</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Πληκτρολογήστε την θερμοκρασία το οποίο θέλετε να μετατρέψετε, και στην συνέχεια επιλέξτε τι μέγεθος είναι αυτό, και σε τι μέγεθος θέλετε να μετατραπεί.</h3>
+              </div>
+              <div class="panel-body">
+                <form id="app5_form">
+                    <div class="form-group">
+                      <div class="input-group" style="width:100%;">
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest rand)" id="app5_temp_in" placeholder="Γράψτε την θερμοκρασία που θέλετε να μετατρέψετε" step="any">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h5 class="text-right">Aπό:</h5>
+                                  </div>
+                                  <div class="col-md-6">
+                                        <select class="selectpicker" id="app5_apo" >
+                                            <option value="celsius">Κελισίου (Celcium)</option>
+                                            <option value="fahrenheit">Φαρεναίτ (Fahrenheit)</option>
+                                            <option value="kelvin">Κέλβιν (Kelvin)</option>
+                                          </select>
+                                        </div>
+                            </div>
+ 
+
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-md-4">
+                                <h5 class="text-right">Σε:</h5>
+                        </div>
+                        <div class="col-md-6">
+                              <select class="selectpicker" id="app5_se">
+                                  <option value="celsius">Κελισίου (Celcius)</option>
+                                  <option value="fahrenheit">Φαρεναίτ (Fahrenheit)</option>
+                                  <option value="kelvin">Κέλβιν (Kelvin)</option>
+                                </select>
+                              </div>            
+                            </div>
+           
+
+                  <div class="form-group"  style="margin-top:10px">
+                        <input type="submit" value="Υπολογισμός" class="btn btn-dark btn-block">
+                      </div>
+                
+                </form>
+              </div>
+              </div>
+            </div>
+         
+          
+          <div class="col-md-6">
+            <div id="app2_results" class="panel results" style="background-color: rgb(219, 246, 255);">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Αποτελέσματα (παράδειγμα).</h3>
+                  </div>
+              <div class="panel-body">
+                <table class="table" style="margin-bottom: 5px;">
+                  <tbody>
+                    <tr>
+                    <td id="app5_apoout">Κελισίου (Celcius)</td>
+                    <td class="text-right"> <span id="app5_apooutnum">20</span>
+                      <span id="app5_aposign">&deg;C</span>
+                    </td>
+                    </tr>
+                    <tr>
+                      <td id="app5_seout">Φαρεναίτ (Fahrenheit)</td>
+                      <td class="text-right"> <span id="app5_seoutnum">7.55</span>
+                        <span id="app5_sesign">&#8457;</span></td>
+                    </tr>
+                    </tbody>
+                  </table>
+                 </div>
+                </div>
+              </div>
+
+              </div>
+            </div>
+
+  <!-- <p>&nbsp;</p>
+  <p><i>To calculate VAT using our tool, input the value of the item or services along with the VAT rate that it’s eligible for. You can then choose to either add the VAT to a pre-tax value, or subtract it from a total value.</i></p> -->
+               
+
+          </div>
+
+	</div>
+	<!-- </div> -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="similarApps" tabindex="-1" role="dialog" aria-labelledby="similarAppsLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="similarAppsLabel">Δείτε άλλες εφαρμογές σχετικά με : <span id="categoryText"></span>  </h5>
+						<!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button> -->
+					</div>
+					<div class="modal-body">
+							<ul class="list-group" id="similarAppsLIst">			
+								</ul>      
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Κλείσιμο</button>
+						<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+					</div>
+				</div>
+			</div>
+		</div>
+  
+    <script type="text/javascript" src="assets/js/apps/app5_converter.js"></script>
+<script type="text/javascript" src="assets/js/apps.js"></script>
+<script type="text/javascript" src="assets/js/functions.js"></script>
+<script type="text/javascript" src="assets/js/apps/appsingle.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/SmoothScroll.js"></script>
+  <script src="assets/js/jquery.waitforimages.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
