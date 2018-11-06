@@ -19,7 +19,7 @@ const apps = [
   },
   {
     appNum: 'app4',
-    info: 'Υπολογείστε τον Δείκτη Μάζας Σώματος (BMI)',
+    info: 'Υπολογίστε τον Δείκτη Μάζας Σώματος (BMI)',
     category: 'Υγεία',
     categoryClass: 'health',
     photoUrl: 'assets/img/works/app4_bmi.png',
